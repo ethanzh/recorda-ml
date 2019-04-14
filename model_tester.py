@@ -5,7 +5,7 @@ nlp = spacy.load("/Users/ethanzh/Code/recorda-ml/food-model")
 # nlp = spacy.load('en')
 
 # Process whole documents
-text = "My pizza from The Counter was bad"
+text = "sandwich"
 doc = nlp(text)
 
 # Analyze syntax
